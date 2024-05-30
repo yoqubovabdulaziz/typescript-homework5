@@ -1,0 +1,16 @@
+#wishlist {
+  padding-top: 77px;
+  .wishlist {
+    &__title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      margin-bottom: 20px;
+    }
+    &__wrapper {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+    }
+  }
+}
